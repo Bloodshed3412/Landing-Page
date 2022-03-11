@@ -1,10 +1,8 @@
 * {
-    text-align: center;
     font-family: 'Roboto', arial;
-    box-sizing: border-box;
     color:#E5E7EB;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     background-color: #1F2937;
 }
 
@@ -35,15 +33,11 @@ header {
     display: flex;
 }
 
-.container {
-    display:flex
-}
-
 .col {
-    height: 48px;
-    flex: 1;
-    border: 20px yellow;
-    margin: auto;
+    background: peachpuff;
+    height: 100px;
+    flex: 1 1 0%;
+    border: 2px red;
 }
 
 .hero-main-text {
