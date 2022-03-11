@@ -6,8 +6,8 @@
     background-color: #1F2937;
 }
 
-li, a, button {
-    font-size: 18px;
+li {
+    font-size: 15px;
     color: #E5E7EB;
 }
 
@@ -31,17 +31,40 @@ header {
 
 .columns {
     display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 40px;
+    position: absolute;
 }
 
 .col {
-    background: peachpuff;
     height: 100px;
+    width: 330px;
     flex: 1 1 0%;
-    border: 2px red;
+    padding: 20px;
 }
 
 .hero-main-text {
     font-size: 48px;
-    color: #F9FAF8
+    color: #F9FAF8;
+    font-weight: bold;
 }
 
+.button {
+    background-color: #3882F6;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: none;
+}
+
+img {
+    width: 350px;
+    height: 200px;
+}
